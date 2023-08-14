@@ -1,0 +1,154 @@
+body{
+  height: 100%;
+  width: 100%;
+  background-color:rgb(0, 0, 0);
+  font-family:"Calibri",Times,serif;
+}
+/*****CONFIGURAÇÃO DO CONTAINER****/
+
+#container {
+  display: flex;
+  width:100%;
+  height: 100%;
+  margin-left:auto;
+  margin-right:auto;
+  background-color:rgb(0, 0, 0);
+} 
+/* Media Query para tela menor */
+@media (max-width: 800px) {
+  #container {
+    font-size: 15px;
+  }}   
+  @media (max-width: 450px) {
+    #container {
+      font-size: 7px;
+    }}   
+
+/*****FIM CONFIGURAÇÃO DO CONTAINER****/
+
+/*****CONFIGURAÇÃO DO TOPO****/
+
+#topo-site {
+ display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  background-color: #206ca6;
+  z-index: 1;
+}
+
+/*****FIM DA CONFIGURAÇÃO DO TOPO****/
+
+/*****CONFIGURAÇÃO DO LOGO DO SITE****/
+
+#logo{
+  width:31%;
+  height:0.8%;
+
+  margin-left:0.4%;
+  margin-top:0.4%;}
+  /*****FIMDACONFIGURAÇÃODOLOGODOSITE****/
+  /*****CONFIGURAÇÃODAREDESOCIAIS****/
+  #logo img{
+    
+    width: 100%;
+  }
+  #rede-sociais
+  {width:12%;
+    height:0.5%;
+    float:right;
+    margin-right:0.4%;
+    margin-top:0.8%;}
+/*****FIMDACONFIGURAÇÃODAREDESOCIAIS****/
+/*****CONFIGURAÇÃODOMENUDOSITE****/
+
+  .menu_simple ul{
+    
+    margin-top:5%;
+    justify-content: space-around;
+    float:left;}
+    .menu_simple ul li{
+      display:inline;}
+      .menu_simple ul li a
+
+      {
+        justify-content: space-around;
+        float:left;
+        text-decoration:none;
+        
+      margin-top: 5%;
+       
+        margin-left:10%;
+   }
+        .menu_simple ul li a:visited{
+          color:white;}
+
+          /*****FIMDACONFIGURAÇÃODOMENUDOSITE****/
+          /*****CONFIGURAÇÃODOSLIDEDOSITE****/
+          /*****CONFIGURAÇÃODOSLIDEDOSITE****/
+
+            /*****FIMDACONFIGURAÇÃODOSLIDEDOSITE****/
+/*****CONFIGURAÇÃODACAIXACONTEUDO****/
+.carousel-wrapper {
+  display: flex;
+  align-items: center; /* Centralizar verticalmente */
+  justify-content: center; /* Centralizar horizontalmente */
+  width: 100%; /* Ocupar toda a altura da página */
+}
+
+.carouselExample {
+  width: 1%; /* Ajuste conforme necessário */
+  /* Outras propriedades aqui */
+}
+ 
+
+
+
+
+
+
+.caixa-conteudo{
+  width:100%;
+  height:21%;
+  
+  }
+  .caixa-conteudo h3
+  {color:white;
+    margin-left:0.5%}
+    .caixa-conteudo ul
+
+    {
+      list-style:none;
+      float:left;
+      color:white;
+      margin-top:5%;
+      margin-left:0.1%;}
+      .caixa-conteudo ul li{
+        margin-top:5%;}
+        .caixa-conteudo li a{
+          text-decoration:none;
+          
+          color:white;}
+          /*****FIMCONFIGURAÇÃODACAIXACONTEUDO****/
+          /*****CONFIGURAÇÃODORODAPEDOSITE****/
+          #rodape-site
+          {width:100%;
+            height:31%;
+            float:left;
+            background-color:
+            #022A4F;
+            margin-top:0.1%;
+          }
+#autor-site
+{width:100%;
+  height:0.4%;
+  background-color:#000000;
+  float:left;
+  text-align:center;
+  padding-top:0.1%;
+  color:white;}
+
+  
+  /* Estilize os elementos de imagem e texto do carrossel */
+  
